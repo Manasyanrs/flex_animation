@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        @keyframes circles {
+            0% {
+                background-color: white;
+
+            }
+
+            3% {
+                top: 20px;
+                background-color: white;
+
+            }
+
+            97% {
+                top: 100px;
+            }
+
+
+            100% {
+                top: 90px;
+            }
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .circl {
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+
+
+        }
+
+        .animation_circle {
+            display: flex;
+            width: 200px;
+            height: 150px;
+            margin-top: 150px;
+            justify-content: space-evenly;
+            border: 2px solid black;
+
+        }
+
+        .circle_1 {
+            animation-duration: 1s;
+            animation-name: circles;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            background-color: skyblue;
+            animation-timing-function: cubic-bezier(0.025, 0.052, 0.165, 1);
+
+        }
+
+        .circle_2 {
+            animation-duration: 1s;
+            animation-name: circles;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            background-color: red;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        }
+
+        .circle_3 {
+            animation-duration: 1s;
+            animation-name: circles;
+            animation-iteration-count: infinite;
+            background-color: slateblue;
+            animation-timing-function: cubic-bezier(0.055, 0.072, 0.165, 1);
+
+        }
+
+        .circle_4 {
+            animation-duration: 1s;
+            animation-name: circles;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            background-color: yellow;
+            animation-timing-function: cubic-bezier(0.075, 0.082, 0.165, 1);
+
+        }
+
+        .circle_5 {
+            animation-duration: 1s;
+            animation-name: circles;
+            animation-iteration-count: infinite;
+            background-color: green;
+            animation-timing-function: ease-out;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        }
+
+        .circle_6 {
+            animation-duration: 1s;
+            animation-name: circles;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            background-color: blueviolet;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="animation_circle">
+            <div class="circle_1 circl"></div>
+            <div class="circle_2 circl"></div>
+            <div class="circle_3 circl"></div>
+            <div class="circle_4 circl"></div>
+            <div class="circle_5 circl"></div>
+            <div class="circle_6 circl"></div>
+
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

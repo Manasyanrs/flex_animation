@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        @keyframes heart{
+            0%{
+                font-size: 150px;
+            }
+
+            94%{
+                font-size: 150px;
+            }
+            96%{
+                font-size: 200px;
+            }
+            98%{
+                font-size: 150px;
+            }
+            100%{
+                font-size: 200px;
+            }
+
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .hart {
+            display: flex;
+            width: 500px;
+            height: 500px;
+            margin-top: 150px;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            color: red;
+            animation-name: heart;
+            animation-duration: 2s;
+            animation-timing-function: steps(4, end);
+            animation-iteration-count: infinite;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="hart">♥
+        </div>
+    </div>
+
+</body>
+
+</html>
