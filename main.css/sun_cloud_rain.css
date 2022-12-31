@@ -1,0 +1,169 @@
+@keyframes sun {
+    0% {
+        width: 80px;
+        height: 80px;
+        background-color: white;
+    }
+
+    14% {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        background-color: yellow;
+
+    }
+
+    16% {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+
+    }
+
+    18% {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        background-image: none;
+
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+        background-image: url("./Снимок.png");
+
+
+    }
+}
+
+@keyframes cloud {
+    0% {
+        background-image: none;
+    }
+
+    21% {
+        background-image: none;
+    }
+
+    25% {
+        background-image: url("./Снимок.png");
+    }
+
+    100% {
+        background-image: url("./Снимок.png");
+    }
+}
+
+@keyframes rain_1 {
+    0% {
+        color: white;
+    }
+
+    53% {
+        color: white;
+    }
+
+    54% {
+
+        color: #00ced2;
+    }
+
+    100% {
+        color: #00ced2;
+
+    }
+}
+
+@keyframes rain_2 {
+    0% {
+        color: white;
+    }
+
+    65% {
+        color: white;
+    }
+
+    70% {
+
+        color: #00ced2;
+    }
+
+    100% {
+        color: #00ced2;
+
+    }
+}
+
+@keyframes rain_3 {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    852% {
+
+        color: #00ced2;
+    }
+
+    100% {
+        color: #00ced2;
+
+    }
+}
+
+
+.icon {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 80px;
+}
+
+.sun {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1, end);
+}
+
+.cloud {
+    width: 130px;
+    height: 80px;
+    border: 2px solid blsck;
+    animation-name: cloud;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 8px;
+
+}
+
+.rain_1 {
+    font-size: 50px;
+    font-weight: 900;
+    animation-name: rain_1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: translate(20px, 70px);
+}
+
+.rain_2 {
+    transform: translate(40px, 10px);
+    animation-name: rain_2;
+}
+
+.rain_3 {
+    transform: translate(60px, -50px);
+    animation-name: rain_3;
+
+}
