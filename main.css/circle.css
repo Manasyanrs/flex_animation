@@ -5,18 +5,20 @@
     }
 
     3% {
-        top: 20px;
+        transform: translateY(20px);
         background-color: white;
 
     }
 
     97% {
-        top: 100px;
+        transform: translateY(120px);
+
     }
 
 
     100% {
-        top: 90px;
+        transform: translateY(90px);
+
     }
 }
 
